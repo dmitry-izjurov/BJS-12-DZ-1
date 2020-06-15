@@ -23,7 +23,7 @@ let total = averageMark(algebra, geography, physics);
 // Задача 2 ----------------------------------------------
 
 function sayHello(userName) {
-  let message = "Привет, мир! Меня зовут " + userName;
+  let message = `Привет, мир! Меня зовут ${userName}`;
   return message;
 }
 
